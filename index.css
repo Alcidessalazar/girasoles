@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "outfit", sans-serif;
+  background-color: hsl(217, 54%, 11%);
+}
+section {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card {
+    width: 100%;
+    height: 100%;
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    height: auto;
+    border-radius: 14px;
+}
+.card-1 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.card-1--img {
+  margin: 10px;
+  width: 250px;
+  border-radius: 14px;
+}
+.card-1--img:hover{
+    border: solid 5px rgb(252, 227, 5);
+    background-image: none;
+    cursor: pointer;
+}
+.card-2{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.text-white{
+    color:hsl(0, 0%, 100%);
+}
+.text-gray{
+    color:hsl(0, 0%, 100%);
+    opacity: 0.3;
+    margin-top: 15px;
+    font-weight: 300;
+}
+.card-2--detalle{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.text-eth{
+    color: hsl(178, 100%, 50%);
+}
+.text-left{
+    color:hsl(215, 51%, 70%) ;
+}
+.card-2--autor{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.card-2--autorimg{
+    border-radius: 10px;
+    width: 50px;
+    display: flex;
+}
+.card-2--autorimg:hover{
+    border: solid 2px rgb(252, 227, 5);
+    cursor: pointer;
+}
+.card-2--autor-letras{
+    justify-content:center;
+    align-items: center;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.text-creation{
+    color: hsl(0, 0%, 100%);
+}
+.text-al{
+    color: hsl(178, 100%, 50%);
+    text-align: center;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+  
